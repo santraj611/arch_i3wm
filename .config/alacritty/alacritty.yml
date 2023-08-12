@@ -1,0 +1,25 @@
+font:
+  normal:
+    family: JetBrainsMonoNLNerdFont
+    style: Regular
+
+  bold:
+    family: JetBrainsMonoNLNerdFont
+    style: Bold
+
+  italic:
+    family: JetBrainsMonoNLNerdFont
+    style: Italic
+
+  bold_italic:
+    family: JetBrainsMonoNLNerdFont
+    style: Bold Italic
+
+  size: 12
+
+window:
+  padding:
+    x: 10
+    y: 3
+
+  opacity: 0.8
