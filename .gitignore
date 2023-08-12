@@ -17,7 +17,6 @@ git-repos/
 .local/
 .mozilla/
 .pki
-README.md
 .viminfo
 .wget-hsts
 .Xauthority
