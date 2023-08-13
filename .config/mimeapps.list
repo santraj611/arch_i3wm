@@ -1,0 +1,6 @@
+
+[Default Applications]
+image/*=nsxiv.desktop
+image/jpeg=nsxiv.desktop
+image/jpg=nsxiv.desktop
+image/png=nsxiv.desktop

@@ -12,3 +12,4 @@ Wallpapers are not included in this repository they have a seprate repository. H
 - pywall + nitrogen (to generate color scheme and set wallpapers at random)
 - Rofi
 - neovim
+- nsxiv (It's a image viewer)
