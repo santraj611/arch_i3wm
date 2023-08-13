@@ -1,4 +1,5 @@
 Note: my english sucks!
+
 ### Some info about this repository
 A Readme file for github
 git repo: https://github.com/santraj611/arch_i3wm.git
@@ -9,7 +10,7 @@ I haven't set a perticulare wallpapers for my i3 build it changes at every reset
 Wallpapers are not included in this repository they have a seprate repository. Here's the link: https://github.com/santraj611/wallpapers.git
 
 ### Some tools you may need
-- pywall + nitrogen (to generate color scheme and set wallpapers at random)
+- pywal + nitrogen (to generate color scheme and set wallpapers at random)
 - Rofi
 - neovim
 - nsxiv (It's a image viewer)
