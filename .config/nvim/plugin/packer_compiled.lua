@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/santraj/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/santraj/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["oxocarbon.nvim"] = {
     loaded = true,
     path = "/home/santraj/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",

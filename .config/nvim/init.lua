@@ -4,4 +4,5 @@ require("primeconfig.core.keymaps")
 require("primeconfig.core.colorscheme")
 require("primeconfig.plugins.comment")
 require("primeconfig.plugins.telescope")
-
+require("primeconfig.plugins.treesitter")
+-- require("primeconfig.plugins.lsp")

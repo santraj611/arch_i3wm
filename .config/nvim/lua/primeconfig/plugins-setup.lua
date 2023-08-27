@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
   -- essential plugins
   use("tpope/vim-surround")
   use("vim-scripts/ReplaceWithRegister")
+  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
   -- commenting with gc
   use("numToStr/Comment.nvim")
