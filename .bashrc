@@ -13,3 +13,4 @@ PS1='\W >_ '
 # Adding path
 export PATH="$PATH:/home/santraj/.local/bin"
 
+
