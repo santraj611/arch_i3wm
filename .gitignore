@@ -22,8 +22,10 @@ git-repos/
 .Xauthority
 wallpapers/
 .xinitrc
+VirtualBox VMs
 
 # Inside of .config/
+.config/VirtualBox
 .config/BraveSoftware/
 .config/dconf/
 .config/discord/
