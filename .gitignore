@@ -1,6 +1,7 @@
 # Ignoring these files or directories
 
 .git/
+.npm/
 .gtkrc-2.0
 .ssh/
 Documents/
