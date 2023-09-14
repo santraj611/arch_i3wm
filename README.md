@@ -14,3 +14,4 @@ Wallpapers are not included in this repository they have a seprate repository. H
 - Rofi
 - neovim
 - nsxiv (It's a image viewer)
+- zathura (for pdf and epub reader)
