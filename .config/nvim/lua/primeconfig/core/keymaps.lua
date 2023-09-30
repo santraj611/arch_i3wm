@@ -22,6 +22,8 @@ keymap.set("n", "<leader>tn", ":tabn<CR>") -- go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to previous tab
 
 -- plugin keymaps
+keymap.set("n", "<C-n>", ":Neotree<CR>")
+keymap.set("n", "<C-t>", ":ToggleTerm<CR>")
 
 -- vim-maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
