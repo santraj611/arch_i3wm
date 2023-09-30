@@ -5,6 +5,7 @@
 .gtkrc-2.0
 .ssh/
 Documents/
+tmp/
 Sync/
 .bash_history
 .bash_logout
