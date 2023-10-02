@@ -35,5 +35,5 @@ opt.clipboard:append("unnamedplus")
 opt.splitright = true
 opt.splitbelow = true
 
--- if it should consider ("-") as part of word
--- opt.iskeyword:append("-")
+opt.scrolloff = 8
+opt.incsearch = true
