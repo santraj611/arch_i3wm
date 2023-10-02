@@ -7,6 +7,7 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
 require('mason').setup({})
 require('mason-lspconfig').setup({
   ensure_installed = {},
@@ -19,5 +20,18 @@ require("lspconfig").rust_analyzer.setup {
     capabilities = capabilities
 }
 require("lspconfig").pyright.setup {
-    capabilities = capabilities
+    capabilities = capabilities,
+    cmd = { "pyright-langserver", "--stdio" },
+    filetypes = { "python" },
+    settings = {
+        python = {
+            analysis = {
+                autoSearchPaths = true,
+                diagnosticMode = "openFilesOnly",
+                useLibraryCodeForTypes = true
+            }
+        }
+    },
+    single_file_support = true,
+
 }

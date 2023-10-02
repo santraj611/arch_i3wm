@@ -107,4 +107,17 @@ return require('packer').startup(function(use)
     -- making it transparent
     use('xiyaowong/transparent.nvim')
 
+    -- installing nvim-compe for code compilations
+    use('hrsh7th/nvim-compe')
+
+    -- installing some cmp's
+    use { 'neovim/nvim-lspconfig' }
+    use { 'hrsh7th/cmp-nvim-lsp' }
+    use { 'hrsh7th/cmp-buffer' }
+    use { 'hrsh7th/cmp-path' }
+    use { 'hrsh7th/cmp-cmdline' }
+    use { 'hrsh7th/nvim-cmp' }
+    use { 'hrsh7th/cmp-vsnip' }  -- For vsnip users.
+    use { 'hrsh7th/vim-vsnip' }
+
 end)

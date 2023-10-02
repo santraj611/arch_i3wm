@@ -29,7 +29,7 @@ keymap.set("n", "<C-t>", ":ToggleTerm<CR>")
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
 -- experimenting with keymaps here
-keymap.set("n", "j", "h")
-keymap.set("n", "k", "j")
-keymap.set("n", "l", "k")
-keymap.set("n", ";", "l")
+-- keymap.set("n", "j", "h")
+-- keymap.set("n", "k", "j")
+-- keymap.set("n", "l", "k")
+-- keymap.set("n", ";", "l")
