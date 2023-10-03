@@ -20,7 +20,8 @@ font pango:Mononoki Nerd Font Mono 9
 #font pango:JetBrainsMonoNerdFontMono-Regular 8
 
 # Setting up the wallpaper
-exec_always --no-startup-id wal -q -i ~/wallpapers/
+# exec_always --no-startup-id wal -q -i ~/wallpapers/  ### For rendomly generateing wallpapers
+exec --no-startup-id wal -q -i ~/wallpapers/street-driking.jpg
 
 # Auto starting picom
 exec --no-startup-id picom&
