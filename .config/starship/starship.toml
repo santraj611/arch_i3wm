@@ -2,7 +2,7 @@
 palette = "catppuccin_mocha"
 
 # Setups
-format="$directory$git_branch\n $character"
+format="$directory$git_branch$python\n $character"
 # format="$directory$git_branch$character"
 right_format = """$git_status$cmd_duration"""
 add_newline = true 
@@ -11,7 +11,7 @@ add_newline = true
 c.disabled = true
 cmake.disabled = true
 haskell.disabled = true
-python.disabled = true
+# python.disabled = true
 ruby.disabled = true
 rust.disabled = true
 perl.disabled = true
@@ -62,6 +62,12 @@ min_time = 1
 format = "[]($style)[[神](bg:base fg:flamingo bold)$duration](bg:base fg:text)[ ]($style)"
 disabled = false
 style = "bg:none fg:base"
+
+[python]
+format = "[]($style)[[🐍 ](bg:base fg:flamingo bold)$virtualenv](bg:base fg:lavender)[ ]($style)"
+style = "bg:none fg:base"
+pyenv_version_name = true
+python_binary = ['./venv/bin/python', 'python', 'python3', 'python2']
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
