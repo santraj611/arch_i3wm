@@ -12,3 +12,6 @@ PS1='\W >: '
 # Adding path
 export PATH="$PATH:/home/santraj/.local/bin"
 
+# starship 
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+eval "$(starship init bash)"
