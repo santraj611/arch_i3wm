@@ -1,8 +1,3 @@
--- This file can be loaded by calling `lua require('plugins')` from your init.vim
-
--- Only required if you have packer configured as `opt`
-vim.cmd [[packadd packer.nvim]]
-
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use("wbthomason/packer.nvim")
@@ -14,7 +9,7 @@ return require('packer').startup(function(use)
     use({'rose-pine/neovim', as = 'rose-pine'})
 
     -- essential plugins
-    use("tpope/vim-surround")
+    use('tpope/vim-surround')
     use("vim-scripts/ReplaceWithRegister")
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
@@ -74,7 +69,7 @@ return require('packer').startup(function(use)
         config = function() require("nvim-autopairs").setup {} end
     }
 
-    -- neotree for file tree
+    -- neotree for file tree and some other stuff
     use {
         "nvim-neo-tree/neo-tree.nvim",
         branch = "v3.x",
@@ -103,6 +98,8 @@ return require('packer').startup(function(use)
             },
         }
     }
+    use('tiagovla/scope.nvim')
+    use('ThePrimeagen/harpoon')
 
     -- making it transparent
     use('xiyaowong/transparent.nvim')

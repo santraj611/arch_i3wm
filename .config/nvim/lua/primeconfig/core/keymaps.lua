@@ -23,6 +23,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to previous tab
 
 -- plugin keymaps
 keymap.set("n", "<C-n>", ":Neotree<CR>")
+keymap.set("n", "<leader>fb", "<cmd>Telescope scope buffers<cr>", { noremap = true, silent = true })
 
 -- vim-maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
