@@ -27,7 +27,8 @@ wallpapers/
 VirtualBox VMs
 
 # Inside of .config/
-.config/VirtualBox
+.config/VirtualBox/
+.config/libreoffice/
 .config/BraveSoftware/
 .config/dconf/
 .config/discord/
