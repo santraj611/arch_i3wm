@@ -20,9 +20,6 @@ font pango:Mononoki Nerd Font Mono 9
 # exec_always --no-startup-id wal -q -i ~/wallpapers/  ### For rendomly generateing wallpapers
 exec --no-startup-id wal -q -i ~/wallpapers/street-driking.jpg
 
-# Auto starting picom
-exec --no-startup-id picom&
-
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3

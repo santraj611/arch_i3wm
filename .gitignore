@@ -1,6 +1,8 @@
 # Ignoring these files or directories
 
 .git/
+.cargo/
+go/
 .npm/
 .gtkrc-2.0
 .ssh/
@@ -27,6 +29,7 @@ wallpapers/
 VirtualBox VMs
 
 # Inside of .config/
+.config/activitywatch/
 .config/VirtualBox/
 .config/libreoffice/
 .config/BraveSoftware/
