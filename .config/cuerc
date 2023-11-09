@@ -1,0 +1,27 @@
+path=/home/santraj/Music
+coverEnabled=1
+coverAnsi=0
+visualizerEnabled=1
+visualizerHeight=8
+useProfileColors=0
+volumeUp=+
+volumeDown=-
+previousTrackAlt=h
+nextTrackAlt=l
+scrollUpAlt=k
+scrollDownAlt=j
+switchNumberedSong=
+switchNumberedSongAlt=g
+switchNumberedSongAlt2=G
+togglePause=p
+toggleColorsDerivedFrom=i
+toggleVisualizer=v
+toggleCovers=c
+toggleAscii=b
+toggleRepeat=r
+toggleShuffle=s
+seekBackward=a
+seekForward=d
+savePlaylist=x
+quit=q
+# For special keys use terminal codes OS, for F4 for instance. This can depend on the terminal.

@@ -20,3 +20,5 @@ Wallpapers are not included in this repository they have a seprate repository. H
 - flameshot (for taking screenshots or recording maybe)
 - xclip (It's make sure that neovim does use systems clipboard)
 - starship (for command promet)
+- cue (music/audio player)
+- mpv (video/media player)

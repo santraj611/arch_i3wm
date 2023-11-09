@@ -1,6 +1,13 @@
 # Ignoring these files or directories
 
 .git/
+.gnupg/
+.java/
+.steam/
+.steampath
+.steampid
+.var/
+.wine/
 .cargo/
 go/
 .npm/
@@ -9,7 +16,7 @@ go/
 Documents/
 tmp/
 Sync/
-.bash_history
+.bash_history*
 .bash_logout
 .bash_profile
 .cache/
@@ -29,6 +36,8 @@ wallpapers/
 VirtualBox VMs
 
 # Inside of .config/
+.config/unity3d/
+.config/cef_user_data/
 .config/activitywatch/
 .config/VirtualBox/
 .config/libreoffice/

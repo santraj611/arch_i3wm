@@ -24,11 +24,9 @@ exec --no-startup-id wal -q -i ~/wallpapers/street-driking.jpg
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
-# Setting the colors for terminal
-# Import colorscheme from 'wal' asynchronously
-# &   # Run the process in the background.
-# ( ) # Hide shell job control messages.
-exec --no-startup-id (cat ~/.cache/wal/sequences &)
+# Managing Display and Chenging FPS 
+exec --no-startup-id xrandr --output VGA1 --mode 1280x1024 --rate 75.02
+exec --no-startup-id xrandr --output VGA1 --brightness 0.67
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
