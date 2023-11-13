@@ -5,6 +5,9 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias nv='nvim'
+alias xrandrmode='xrandr --output VGA1 --mode'
+
 # PS1='[\u@\h \W]\$ '
 PS1='\W >: '
 # PS1='\W >_ '
