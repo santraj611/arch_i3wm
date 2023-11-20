@@ -34,9 +34,13 @@ git-repos/
 wallpapers/
 .xinitrc
 VirtualBox VMs
+Music/
 
 # Inside of .config/
 .config/unity3d/
+.config/casualOnTheSpot/
+.config/kewrc
+.config/yt-dpl/
 .config/cef_user_data/
 .config/activitywatch/
 .config/VirtualBox/
